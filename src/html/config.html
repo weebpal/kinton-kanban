@@ -1,0 +1,33 @@
+<section class="settings">
+  <h2 class="settings-heading">Settings for Kanban board</h2>
+  <div class="form-group">
+    <label>Layout :</label>
+    <select class="selectpicker form-control" id="display-kanban">
+      <option value="kanban-board-fixed">Fixed</option>
+      <option value="kanban-board-fluid">Fluid</option>
+    </select>
+    <button class="btn"><a href="#" id="link-kanban">Kanban Board</a></button>
+  </div>
+  <form class="js-submit-settings">
+    <table class="table table-hover kanban-table">
+      <thead>
+        <tr>
+          <th>Status</th>
+          <th>Disabled</th>
+          <th>Color</th>
+        </tr>
+      </thead>
+      <tbody id="body-config"></tbody>
+    </table>
+
+    <p class="kintoneplugin-row">
+      <button
+        type="button"
+        class="js-cancel-button kintoneplugin-button-dialog-cancel"
+      >
+        Cancel
+      </button>
+      <button class="kintoneplugin-button-dialog-ok">Save</button>
+    </p>
+  </form>
+</section>

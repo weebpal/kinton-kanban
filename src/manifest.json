@@ -1,0 +1,73 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "desktop": {
+    "js": [
+      "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+      "https://js.kintone.com/jqueryui/1.12.1/jquery-ui.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js",
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js",
+      "https://js.cybozu.com/font-awesome/v5.15.1/js/all.min.js",
+      "https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js",
+      "https://js.kintone.com/momentjs/2.29.1/moment.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js",
+      "js/desktop.js",
+      "js/estimate.js"
+    ],
+    "css": [
+      "https://js.cybozu.com/jquerygantt/20140623/css/style.css",
+      "https://js.cybozu.com/jqueryui/1.12.1/themes/smoothness/jquery-ui.css",
+      "https://js.kintone.com/font-awesome/v5.15.1/css/fontawesome.min.css",
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+      "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css",
+      "css/51-modern-default.css",
+      "css/desktop.css"
+    ]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": [
+      "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+      "js/init.js",
+      "js/config.js"
+    ],
+    "css": [
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+      "css/51-modern-default.css",
+      "css/config.css"
+    ],
+    "required_params": [
+      "message",
+      "kanbanSettings"
+    ]
+  },
+  "name": {
+    "en": "kanban_plugin_v1"
+  },
+  "description": {
+    "en": "kanban_plugin_v1"
+  },
+  "mobile": {
+    "js": [
+      "https://js.cybozu.com/jquery/3.3.1/jquery.min.js",
+      "https://js.kintone.com/jqueryui/1.12.1/jquery-ui.min.js",  
+      "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js",
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js",
+      "https://js.cybozu.com/font-awesome/v5.15.1/js/all.min.js",
+      "https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js",
+      "js/mobile.js"
+    ],
+    "css": [
+      "https://js.cybozu.com/jquerygantt/20140623/css/style.css",
+      "https://js.cybozu.com/jqueryui/1.12.1/themes/smoothness/jquery-ui.css",
+      "https://js.kintone.com/font-awesome/v5.15.1/css/fontawesome.min.css",
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
+      "css/51-modern-default.css",
+      "css/mobile.css"
+    ]
+  }
+}
+
